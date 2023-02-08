@@ -5,7 +5,9 @@ import About from "./components/About";
 import SinglePost from "./components/SinglePost";
 import Post from "./components/Post";
 import Skills from "./components/Skills";
+import Interest from "./components/Interest";
 import Project from "./components/Project";
+import Testimonial from "./components/Testimonial";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
@@ -18,6 +20,9 @@ function App() {
       <About />
       <Post />
       <Skills />
+      <Interest />
+      <Project />
+      <Testimonial />
       <Footer />
     </Router>
   );
