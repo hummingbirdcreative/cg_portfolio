@@ -15,16 +15,18 @@ const About = () => {
           </div>
           <div className="lg:col-span-6 lg:pl-12">
             <h3 className="font-[600] text-[26px] md:text-[40px] leading-[1.2] text-black mb-[25px]">
-              I'm a Freelancer Front-end Developer with over 3 years of
-              experience.
+              I'm a Freelancer Front-end Developer with an interest in
+              accessibility.
             </h3>
             <p className="text-[16px] md:text-[18px]">
-              I'm a Freelancer Front-end Developer with over 3 years of
-              experience. I'm from San Francisco. I code and create web elements
-              for amazing people around the world. I like work with new people.
-              New people new Experiences.
+              I am a full-stack web developer who enjoys creating precise code
+              to solve problems creatively. With a background in design and
+              customer service, I am passionate about visual aesthetics and good
+              design that works uniquely for each client’s needs. I am a problem
+              solver who has cultivated the ability to adapt quickly and find
+              concise solutions.
             </p>
-            <div className="grid grid-cols-12 pt-5">
+            {/* <div className="grid grid-cols-12 pt-5">
               <div className="col-span-6 sm:col-span-4">
                 <h5 className="text-[26px] text-orange-600 font-[600]">285+</h5>
                 <span>Projet Completed</span>
@@ -33,7 +35,7 @@ const About = () => {
                 <h5 className="text-[26px] text-orange-600 font-[600]">190+</h5>
                 <span>Happy Clients</span>
               </div>
-            </div>
+            </div> */}
             <div className="pt-6">
               <a
                 className="px-btn px-btn-theme mr-4"
