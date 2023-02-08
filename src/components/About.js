@@ -1,58 +1,59 @@
-import React, { useState, useEffect } from "react";
-import sanityClient from "../client.js";
-import sunnyclouds from "../sunnyclouds.jpg";
-import imageUrlBuilder from "@sanity/image-url";
-import BlockContent from "@sanity/block-content-to-react";
-
-const builder = imageUrlBuilder(sanityClient);
-function urlFor(source) {
-  return builder.image(source);
-}
+import React from "react";
 
 const About = () => {
-  const [author, setAuthor] = useState(null);
-
-  useEffect(() => {
-    sanityClient
-      .fetch(
-        `*[_type == "author"]{
-          name, 
-          bio,
-          "authorImage": image.asset->url
-      }`
-      )
-      .then((data) => setAuthor(data[0]))
-      .catch(console.error);
-  }, []);
-
-  if (!author) return <div>Loading ...</div>;
-
   return (
-    <main className="relative">
-      <img src={sunnyclouds} alt="sunny clouds" className="absolute w-full" />
-      <div className="p-10 lg:pt-48 container mx-auto relative">
-        <section className="bg-green-800 rounded-lg shadwon-2xl lg:flex p-20">
-          <img
-            src={urlFor(author.authorImage).url()}
-            className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8"
-            alt={author.name}
-          />
-          <div className="text-lg flex flex-col justify-center">
-            <h1 className="cursive text-6xl text-green-300 mb-4">
-              Hey there. I'm{" "}
-              <span className="text-green-100">{author.name}</span>
-            </h1>
-            <div className="prose lg:prose-xl text-white">
-              <BlockContent
-                blocks={author.bio}
-                projectId="cmc4cnq4"
-                dataset="production"
-              />
+    <section className="section">
+      <div className="container">
+        <div className="grid lg:grid-cols-12 grid-cols-1 items-center">
+          <div className="lg:col-span-6 text-center mb-[50px] lg:mb-0">
+            <img
+              className="mx-auto"
+              src="assets/img/aboutme-banner.png"
+              title=""
+              alt=""
+            />
+          </div>
+          <div className="lg:col-span-6 lg:pl-12">
+            <h3 className="font-[600] text-[26px] md:text-[40px] leading-[1.2] text-black mb-[25px]">
+              I'm a Freelancer Front-end Developer with over 3 years of
+              experience.
+            </h3>
+            <p className="text-[16px] md:text-[18px]">
+              I'm a Freelancer Front-end Developer with over 3 years of
+              experience. I'm from San Francisco. I code and create web elements
+              for amazing people around the world. I like work with new people.
+              New people new Experiences.
+            </p>
+            <div className="grid grid-cols-12 pt-5">
+              <div className="col-span-6 sm:col-span-4">
+                <h5 className="text-[26px] text-orange-600 font-[600]">285+</h5>
+                <span>Projet Completed</span>
+              </div>
+              <div className="col-span-6 sm:col-span-4">
+                <h5 className="text-[26px] text-orange-600 font-[600]">190+</h5>
+                <span>Happy Clients</span>
+              </div>
+            </div>
+            <div className="pt-6">
+              <a
+                className="px-btn px-btn-theme mr-4"
+                data-scroll-nav="4"
+                href="#contactus"
+              >
+                Contact Me
+              </a>
+              <a
+                className="px-btn px-btn-dark"
+                data-scroll-nav="3"
+                href="#work"
+              >
+                Portfolio
+              </a>
             </div>
           </div>
-        </section>
+        </div>
       </div>
-    </main>
+    </section>
   );
 };
 
