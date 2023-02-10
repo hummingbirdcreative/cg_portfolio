@@ -44,25 +44,25 @@ const Skills = () => {
                   <div className="col-span-6">
                     <div className="feature-box-02 bg-4">
                       <div className="icon">
-                        <i className="fab fa-angular"></i>
+                        <i className="fab fa-js"></i>
                       </div>
-                      <h6>Angular</h6>
+                      <h6>JavaScript</h6>
                     </div>
                   </div>
                   <div className="col-span-6">
                     <div className="feature-box-02 bg-5">
                       <div className="icon">
-                        <i className="fab fa-apple"></i>
+                        <i className="fab fa-node-js"></i>
                       </div>
-                      <h6>iOs App</h6>
+                      <h6>Node.js</h6>
                     </div>
                   </div>
                   <div className="col-span-6">
                     <div className="feature-box-02 bg-6">
                       <div className="icon">
-                        <i className="fab fa-android"></i>
+                        <i className="fab fa-aws"></i>
                       </div>
-                      <h6>App Dev</h6>
+                      <h6>AWS</h6>
                     </div>
                   </div>
                 </div>
