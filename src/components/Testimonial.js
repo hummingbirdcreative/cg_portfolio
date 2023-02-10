@@ -3,17 +3,17 @@ import React from "react";
 const Testimonial = () => {
   return (
     <main className="wrapper">
-      <section className="section testimonial-section">
-        <div className="container">
-          <div className="grid section-heading">
-            <div className="lg:col-span-6 text-center mx-auto">
+      <section class="section testimonial-section">
+        <div class="container">
+          <div class="grid section-heading">
+            <div class="lg:col-span-6 text-center mx-auto">
               <h3>
                 <span>Testimonial</span>
               </h3>
             </div>
           </div>
           <div
-            className="owl-carousel lightbox-gallery"
+            class="owl-carousel lightbox-gallery"
             data-items="2"
             data-nav-dots="true"
             data-lg-items="2"
@@ -23,72 +23,76 @@ const Testimonial = () => {
             data-space="30"
             data-autoplay="true"
           >
-            <div className="feature-box-03">
-              <div className="feature-img">
-                <img src="assets/img/avatar-1.jpg" title="" alt="" />
+            <div class="feature-box-03">
+              <div class="feature-img">
+                <a href="https://www.linkedin.com/in/daniel-j-scott/">
+                  <img
+                    src="assets/img/avatar-daniel.jpg"
+                    title="Daniel Scott"
+                    alt="Daniel Scott"
+                  />
+                </a>
               </div>
-              <div className="feature-content">
-                <div className="icons">
-                  <i className="fas fa-quote-left"></i>
+              <div class="feature-content">
+                <div class="icons">
+                  <i class="fas fa-quote-left"></i>
                 </div>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s.
+                  Christine is known amongst myself and her peers for her caring
+                  nature and creative approach to problem-solving. She is
+                  dedicated to her work and puts a lot of thought into every
+                  solution she produces, ensuring that it is completed to the
+                  highest standard. She is a valuable asset to any team.
                 </p>
-                <h6>Jennifer Lutheran</h6>
-                <span>CEO at pxdraft</span>
+                <h6>Daniel Scott</h6>
+                <span>Founder at DanielJS Digital Media Solutions</span>
               </div>
             </div>
-            <div className="feature-box-03">
-              <div className="feature-img">
-                <img src="assets/img/avatar-2.jpg" title="" alt="" />
+            <div class="feature-box-03">
+              <div class="feature-img">
+                <a href="https://www.linkedin.com/in/andrea-williams433/">
+                  <img
+                    src="assets/img/avatar-andrea.jpg"
+                    title="Andrea Williams"
+                    alt="Andrea Williams"
+                  />
+                </a>
               </div>
-              <div className="feature-content">
-                <div className="icons">
-                  <i className="fas fa-quote-left"></i>
+              <div class="feature-content">
+                <div class="icons">
+                  <i class="fas fa-quote-left"></i>
                 </div>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s.
+                  Christine has a natural talent for coding that is shown
+                  through her clean code and ability to ask insightful
+                  questions. Her projects were always solid and really well
+                  thought out.
                 </p>
-                <h6>Jennifer Lutheran</h6>
-                <span>CEO at pxdraft</span>
+                <h6>Andrea Williams</h6>
+                <span>Software Engineer at Musicbuk</span>
               </div>
             </div>
-            <div className="feature-box-03">
-              <div className="feature-img">
-                <img src="assets/img/avatar-3.jpg" title="" alt="" />
+            <div class="feature-box-03">
+              <div class="feature-img">
+                <a href="https://www.linkedin.com/in/mike-bocon/">
+                  <img
+                    src="assets/img/avatar-mike.jpg"
+                    title="Mike Bocon"
+                    alt="Mike Bocon"
+                  />
+                </a>
               </div>
-              <div className="feature-content">
-                <div className="icons">
-                  <i className="fas fa-quote-left"></i>
+              <div class="feature-content">
+                <div class="icons">
+                  <i class="fas fa-quote-left"></i>
                 </div>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s.
                 </p>
-                <h6>Jennifer Lutheran</h6>
-                <span>CEO at pxdraft</span>
-              </div>
-            </div>
-            <div className="feature-box-03">
-              <div className="feature-img">
-                <img src="assets/img/avatar-4.jpg" title="" alt="" />
-              </div>
-              <div className="feature-content">
-                <div className="icons">
-                  <i className="fas fa-quote-left"></i>
-                </div>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s.
-                </p>
-                <h6>Jennifer Lutheran</h6>
-                <span>CEO at pxdraft</span>
+                <h6>Mike Bocon</h6>
+                <span>Instructional Associate at General Assembly</span>
               </div>
             </div>
           </div>
