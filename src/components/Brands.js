@@ -17,60 +17,60 @@ const Brands = () => {
             data-autoplay="true"
           >
             <div className="p-3 text-center d-flex align-center justify-center w-full">
-              <img
+              {/* <img
                 className="mx-auto"
                 src="assets/img/brand-1.svg"
                 title=""
                 alt=""
-              />
+              /> */}
             </div>
             <div className="p-3 text-center d-flex align-center justify-center w-full">
-              <img
+              {/* <img
                 className="mx-auto"
                 src="assets/img/brand-2.svg"
                 title=""
                 alt=""
-              />
+              /> */}
             </div>
             <div className="p-3 text-center d-flex align-center justify-center w-full">
-              <img
+              {/* <img
                 className="mx-auto"
                 src="assets/img/brand-3.svg"
                 title=""
                 alt=""
-              />
+              /> */}
             </div>
             <div className="p-3 text-center d-flex align-center justify-center w-full">
-              <img
+              {/* <img
                 className="mx-auto"
                 src="assets/img/brand-4.svg"
                 title=""
                 alt=""
-              />
+              /> */}
             </div>
             <div className="p-3 text-center d-flex align-center justify-center w-full">
-              <img
+              {/* <img
                 className="mx-auto"
                 src="assets/img/brand-5.svg"
                 title=""
                 alt=""
-              />
+              /> */}
             </div>
             <div className="p-3 text-center d-flex align-center justify-center w-full">
-              <img
+              {/* <img
                 className="mx-auto"
                 src="assets/img/brand-6.svg"
                 title=""
                 alt=""
-              />
+              /> */}
             </div>
             <div className="p-3 text-center d-flex align-center justify-center w-full">
-              <img
+              {/* <img
                 className="mx-auto"
                 src="assets/img/brand-7.svg"
                 title=""
                 alt=""
-              />
+              /> */}
             </div>
           </div>
         </div>
