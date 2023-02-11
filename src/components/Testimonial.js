@@ -87,9 +87,14 @@ const Testimonial = () => {
                   <i class="fas fa-quote-left"></i>
                 </div>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s.
+                  Christine is a highly motivated software engineer with a
+                  passion for technology and a strong attention to detail. She
+                  has excellent problem-solving skills and a committed work
+                  ethic, consistently delivering high-quality results. As a team
+                  player, Christine works effectively in group environments,
+                  bringing a unique perspective and creative solutions to
+                  projects. I highly recommend Christine for any software
+                  development project or team.
                 </p>
                 <h6>Mike Bocon</h6>
                 <span>Instructional Associate at General Assembly</span>
