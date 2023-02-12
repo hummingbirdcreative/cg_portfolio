@@ -23,8 +23,8 @@ const NavBar = () => {
               </a>
             </li>
             <li>
-              <a data-scroll-nav="1" href="#services">
-                <span>Services</span>
+              <a data-scroll-nav="1" href="#blog">
+                <span>Blog</span>
               </a>
             </li>
             <li>
