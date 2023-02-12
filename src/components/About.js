@@ -7,10 +7,10 @@ const About = () => {
         <div className="grid lg:grid-cols-12 grid-cols-1 items-center">
           <div className="lg:col-span-6 text-center mb-[50px] lg:mb-0">
             <img
-              className="mx-auto"
-              src="assets/img/aboutme-banner.png"
-              title=""
-              alt=""
+              className="mx-auto border-black border-8 border-solid"
+              src="assets/img/zigzags.jpg"
+              title="zigzags"
+              alt="zigzags"
             />
           </div>
           <div className="lg:col-span-6 lg:pl-12">

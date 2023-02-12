@@ -70,8 +70,8 @@ const Skills = () => {
             </div>
             <div className="lg:col-span-6 text-center pt-[40px] md:pt-0">
               <img
-                className="mx-[auto]"
-                src="assets/img/skills.png"
+                className="mx-[auto] border-black border-8 border-solid"
+                src="assets/img/coding.jpg"
                 title=""
                 alt=""
               />

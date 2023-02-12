@@ -36,8 +36,8 @@ const Home = () => {
                 <img
                   className="border-black border-8 border-solid"
                   src="assets/img/pexels-vlada-karpovich-4050312.jpg"
-                  title=""
-                  alt=""
+                  title="typing"
+                  alt="typing"
                 />
               </div>
             </div>

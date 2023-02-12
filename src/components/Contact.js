@@ -98,7 +98,7 @@ const Contact = () => {
                 <div className="pb-10">
                   <img
                     className="w-full"
-                    src="assets/img/contact-bg.png"
+                    src="assets/img/pinkdesk.jpg"
                     title=""
                     alt=""
                   />
