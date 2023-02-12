@@ -3,17 +3,17 @@ import React from "react";
 const Testimonial = () => {
   return (
     <main className="wrapper">
-      <section class="section testimonial-section">
-        <div class="container">
-          <div class="grid section-heading">
-            <div class="lg:col-span-6 text-center mx-auto">
+      <section className="section testimonial-section">
+        <div className="container">
+          <div className="grid section-heading">
+            <div className="lg:col-span-6 text-center mx-auto">
               <h3>
                 <span>Testimonial</span>
               </h3>
             </div>
           </div>
           <div
-            class="owl-carousel lightbox-gallery"
+            className="owl-carousel lightbox-gallery"
             data-items="2"
             data-nav-dots="true"
             data-lg-items="2"
@@ -23,8 +23,8 @@ const Testimonial = () => {
             data-space="30"
             data-autoplay="true"
           >
-            <div class="feature-box-03">
-              <div class="feature-img">
+            <div className="feature-box-03">
+              <div className="feature-img">
                 <a
                   href="https://www.linkedin.com/in/daniel-j-scott/"
                   target="_blank"
@@ -37,9 +37,9 @@ const Testimonial = () => {
                   />
                 </a>
               </div>
-              <div class="feature-content">
-                <div class="icons">
-                  <i class="fas fa-quote-left"></i>
+              <div className="feature-content">
+                <div className="icons">
+                  <i className="fas fa-quote-left"></i>
                 </div>
                 <p>
                   Christine is known amongst myself and her peers for her caring
@@ -52,8 +52,8 @@ const Testimonial = () => {
                 <span>Founder at DanielJS Digital Media Solutions</span>
               </div>
             </div>
-            <div class="feature-box-03">
-              <div class="feature-img">
+            <div className="feature-box-03">
+              <div className="feature-img">
                 <a
                   href="https://www.linkedin.com/in/andrea-williams433/"
                   target="_blank"
@@ -66,9 +66,9 @@ const Testimonial = () => {
                   />
                 </a>
               </div>
-              <div class="feature-content">
-                <div class="icons">
-                  <i class="fas fa-quote-left"></i>
+              <div className="feature-content">
+                <div className="icons">
+                  <i className="fas fa-quote-left"></i>
                 </div>
                 <p>
                   Christine has a natural talent for coding that is shown
@@ -80,8 +80,8 @@ const Testimonial = () => {
                 <span>Software Engineer at Musicbuk</span>
               </div>
             </div>
-            <div class="feature-box-03">
-              <div class="feature-img">
+            <div className="feature-box-03">
+              <div className="feature-img">
                 <a
                   href="https://www.linkedin.com/in/mike-bocon/"
                   target="_blank"
@@ -94,9 +94,9 @@ const Testimonial = () => {
                   />
                 </a>
               </div>
-              <div class="feature-content">
-                <div class="icons">
-                  <i class="fas fa-quote-left"></i>
+              <div className="feature-content">
+                <div className="icons">
+                  <i className="fas fa-quote-left"></i>
                 </div>
                 <p>
                   Christine is a highly motivated software engineer with a

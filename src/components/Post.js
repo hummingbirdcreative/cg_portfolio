@@ -63,9 +63,7 @@ const Post = () => {
                       />
                       <span className="block relative h-full flex justify-end items-end pr-4 pb-4">
                         <div className="btn-bar">
-                          <h3 className="px-btn px-btn-theme px_modal">
-                            {post.title}
-                          </h3>
+                          <h3 className="px-btn px-btn-theme">{post.title}</h3>
                         </div>
                       </span>
                     </span>

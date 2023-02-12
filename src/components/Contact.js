@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <main classNameName="wrapper">
+    <main className="wrapper">
       <section
         data-scroll-index="4"
         id="contactus"

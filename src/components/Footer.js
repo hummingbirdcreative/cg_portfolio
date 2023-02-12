@@ -14,10 +14,10 @@ const Footer = () => {
                 <i className="fab fa-linkedin-in"></i>
               </a>
               <a
-                class="text-white text-opacity-90 hover:text-orange-600 mr-5 text-[16px]"
+                className="text-white text-opacity-90 hover:text-orange-600 mr-5 text-[16px]"
                 href="https://cdn.hihello.me/o/172322f9-7ec2-40b8-a3c7-a1b2b1dbd4d4.pdf"
               >
-                <i class="fa-thin fa-file-pdf"></i>
+                <i className="fa-thin fa-file-pdf"></i>
               </a>
             </div>
           </div>

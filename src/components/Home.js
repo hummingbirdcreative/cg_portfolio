@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <main classNameName="wrapper">
+    <main className="wrapper">
       <section
         data-scroll-index="0"
         className="home-section pt-[120px] pb-[80px] lg:pt-[180px] lg:pb-[100px] bg-orange-50 relative overflow-hidden"
@@ -33,7 +33,12 @@ const Home = () => {
             </div>
             <div className="lg:col-span-6">
               <div className="home-image text-center">
-                <img src="assets/img/aboutme-banner.png" title="" alt="" />
+                <img
+                  className="border-black border-8 border-solid"
+                  src="assets/img/pexels-vlada-karpovich-4050312.jpg"
+                  title=""
+                  alt=""
+                />
               </div>
             </div>
           </div>
