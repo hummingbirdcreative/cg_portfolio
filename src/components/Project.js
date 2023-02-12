@@ -14,7 +14,8 @@ const Project = () => {
           description,
           projectType,
           link,
-          tags 
+          tags, 
+          mainImage 
       }`
       )
       .then((data) => setProjectData(data))
@@ -22,58 +23,60 @@ const Project = () => {
   }, []);
 
   return (
-    <main className="bg-green-100 min-h-screen p-12">
-      <section className="container mx-auto">
-        <h1 className="text-5xl flex justify-center cursive">My Projects</h1>
-        <h2 className="text-lg text-gray-600 flex justify-center mb-12">
-          welcome to my project page
-        </h2>
-        <section className="grid grid-cols-2 gap-8">
-          {projectData &&
-            projectData.map((project, index) => (
-              <article className="relative rounded-lg shadow-xl bg-white p-16">
-                <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
-                  <a
-                    href={project.link}
-                    alt={project.title}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {project.title}
-                  </a>
-                </h3>
-                <div className="text-gray-500 text-xs space-x-4">
-                  <span>
-                    <strong className="font-bold">Finished On</strong>:{" "}
-                    {new Date(project.date).toLocaleDateString()}
-                  </span>
-                  <span>
-                    <strong className="font-bold">Company</strong>:{" "}
-                    {project.place}
-                  </span>
-                  <span>
-                    <strong className="font-bold">Type</strong>:{" "}
-                    {project.projectType}
-                  </span>
-                  <p className="my-6 text-lg text-gray-700 leading-relaxed">
-                    {project.description}
-                  </p>
-                  <a
-                    href={project.link}
-                    alt={project.title}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl"
-                  >
-                    View the project{" "}
-                    <span role="img" aria-label="right pointer">
-                      👉
-                    </span>
-                  </a>
+    <main className="wrapper">
+      <section data-scroll-index="3" className="section bg-orange-50">
+        <div className="container">
+          <div className="grid section-heading">
+            <div className="lg:col-span-6 text-center mx-auto">
+              <span>
+                <h3>Latest Projects</h3>
+              </span>
+            </div>
+          </div>
+          <div className="ligthbox-gallery portfolio-box">
+            {projectData &&
+              projectData.map((project, index) => (
+                <div className="grid grid-cols-12 gx-3 mb-5 pb-lg-3 mb-lg-3 pb-12 portfolio-box justify-around items-center">
+                  <div className="col-span-12 md:col-span-6 md:px-5 lg:px-10 mb-10 md:mb-0">
+                    <div className="portfolio-img">
+                      <img
+                        src={project.mainImage}
+                        title={project.title}
+                        alt={project.title}
+                      />
+                      <a
+                        href={project.link}
+                        className="gallery-link gallery-link-icon"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fas fa-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-span-12 md:col-span-6 md:px-5 lg:px-10">
+                    <div class="portfolio-text">
+                      <h6>
+                        <span>{project.projectType}</span>
+                      </h6>
+                      <h4>{project.title}</h4>
+                      <p>{project.description}</p>
+                      <div class="btn-bar">
+                        <a
+                          class="px-btn px-btn-theme px_modal"
+                          href={project.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          View Project
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </article>
-            ))}
-        </section>
+              ))}
+          </div>
+        </div>
       </section>
     </main>
   );
