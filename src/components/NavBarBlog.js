@@ -7,7 +7,7 @@ const NavBarBlog = () => {
         <div className="logo">
           <a href="/">
             <img
-              src="assets/img/cglogobg.png"
+              src="assets/img/logo.svg"
               title="CG Logo"
               alt="CG Logo"
               style={{ width: "100px", height: "29px", paddingTop: "5px" }}
