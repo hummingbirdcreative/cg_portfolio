@@ -6,7 +6,12 @@ const NavBar = () => {
       <div className="container flex items-center justify-between one-page-nav relative py-5 lg:py-3">
         <div className="logo">
           <a href="#">
-            <img src="assets/img/logo.svg" title="CG Logo" alt="CG Logo" />
+            <img
+              src="assets/img/cglogobg.png"
+              title="CG Logo"
+              alt="CG Logo"
+              style={{ width: "177px", height: "69px" }}
+            />
           </a>
         </div>
 
