@@ -25,7 +25,11 @@ const Testimonial = () => {
           >
             <div class="feature-box-03">
               <div class="feature-img">
-                <a href="https://www.linkedin.com/in/daniel-j-scott/">
+                <a
+                  href="https://www.linkedin.com/in/daniel-j-scott/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="assets/img/avatar-daniel.jpg"
                     title="Daniel Scott"
@@ -50,7 +54,11 @@ const Testimonial = () => {
             </div>
             <div class="feature-box-03">
               <div class="feature-img">
-                <a href="https://www.linkedin.com/in/andrea-williams433/">
+                <a
+                  href="https://www.linkedin.com/in/andrea-williams433/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="assets/img/avatar-andrea.jpg"
                     title="Andrea Williams"
@@ -74,7 +82,11 @@ const Testimonial = () => {
             </div>
             <div class="feature-box-03">
               <div class="feature-img">
-                <a href="https://www.linkedin.com/in/mike-bocon/">
+                <a
+                  href="https://www.linkedin.com/in/mike-bocon/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="assets/img/avatar-mike.jpg"
                     title="Mike Bocon"

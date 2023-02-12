@@ -24,7 +24,11 @@ const Contact = () => {
                 <p className="text-[18px] mb-[30px]">
                   I would love to hear from you.
                 </p>
-                <form id="contact-form" method="POST">
+                <form
+                  action="https://public.herotofu.com/v1/16e978e0-5652-11ed-b82c-5d75eaa7ccff"
+                  id="contact-form"
+                  method="POST"
+                >
                   <div className="grid grid-cols-12 gap-3">
                     <div className="col-span-12 md:col-span-6">
                       <div className="form-group">
@@ -78,8 +82,8 @@ const Contact = () => {
                       <div className="send">
                         <button
                           className="px-btn px-btn-theme2"
-                          type="button"
-                          value="Send"
+                          type="submit"
+                          value="DownloadCTA"
                         >
                           Send Message
                         </button>
