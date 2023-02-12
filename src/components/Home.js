@@ -12,7 +12,7 @@ const Home = () => {
             <div className="lg:col-span-6">
               <div className="text-center lg:text-start mb-[50px] lg:mb-0">
                 <h6 className="text-black uppercase text-[14px] md:text-[16px] tracking-[2px] font-[600] mb-[20px] md:mb-[30px]">
-                  👋, My name is Christine
+                  👋, My name is Christine Graybosch
                 </h6>
                 <h1 className="text-black font-[600] text-[40px] md:text-[70px] leading-[1] mb-[25px] md:mb-[35px]">
                   I'm a <span id="type-it"></span>
@@ -33,7 +33,7 @@ const Home = () => {
             </div>
             <div className="lg:col-span-6">
               <div className="home-image text-center">
-                <img src="assets/img/home-banner.png" title="" alt="" />
+                <img src="assets/img/aboutme-banner.png" title="" alt="" />
               </div>
             </div>
           </div>

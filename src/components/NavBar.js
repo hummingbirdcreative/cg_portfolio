@@ -10,7 +10,7 @@ const NavBar = () => {
               src="assets/img/cglogobg.png"
               title="CG Logo"
               alt="CG Logo"
-              style={{ width: "177px", height: "69px" }}
+              style={{ width: "100px", height: "29px", paddingTop: "5px" }}
             />
           </a>
         </div>
