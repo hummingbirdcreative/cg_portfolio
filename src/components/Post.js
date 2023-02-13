@@ -61,7 +61,7 @@ const Post = () => {
                         alt={post.mainImage.alt}
                         className="w-full h-full object-cover absolute"
                       />
-                      <span className="block relative h-full flex justify-end items-end pr-4 pb-4">
+                      <span className="relative h-full flex justify-end items-end pr-4 pb-4">
                         <div className="btn-bar">
                           <h3 className="px-btn px-btn-theme">{post.title}</h3>
                         </div>

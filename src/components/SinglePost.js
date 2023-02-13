@@ -53,7 +53,7 @@ const SinglePost = () => {
                     <h1 className=" text-3xl lg:text-6xl mb-4">
                       {singlePost.title}
                     </h1>
-                    <div className="flex justify-center text-gray-800">
+                    <div className="flex justify-center text-black">
                       <img
                         src={urlFor(singlePost.authorImage).url()}
                         alt={singlePost.name}

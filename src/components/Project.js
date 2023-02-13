@@ -22,7 +22,7 @@ const Project = () => {
                     alt="Vita"
                   />
                   <a
-                    href="https://vita-life-story.herokuapp.com/"
+                    href="https://vita-app-production.up.railway.app/"
                     className="gallery-link-icon"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -45,7 +45,7 @@ const Project = () => {
                   <div className="btn-bar">
                     <a
                       className="px-btn px-btn-theme"
-                      href="https://vita-life-story.herokuapp.com/"
+                      href="https://vita-app-production.up.railway.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -105,7 +105,7 @@ const Project = () => {
                     alt="Wardrobe Catalog"
                   />
                   <a
-                    href="https://wardobe-catalog.herokuapp.com/users/login"
+                    href="https://project2wardrobecatalog-production.up.railway.app/"
                     className="gallery-link-icon"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -127,7 +127,7 @@ const Project = () => {
                   <div className="btn-bar">
                     <a
                       className="px-btn px-btn-theme"
-                      href="https://wardobe-catalog.herokuapp.com/users/login"
+                      href="https://project2wardrobecatalog-production.up.railway.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
