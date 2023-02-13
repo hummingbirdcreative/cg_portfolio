@@ -3,7 +3,7 @@ import sanityClient from "../client.js";
 import { useParams } from "react-router-dom";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
-import NavBarBlog from "./NavBarBlog.js";
+import BarBlog from "./BarBlog.js";
 import Contact from "./Contact.js";
 
 const builder = imageUrlBuilder(sanityClient);
@@ -41,7 +41,7 @@ const SinglePost = () => {
 
   return (
     <>
-      <NavBarBlog />
+      <BarBlog />
 
       <main className="wrapper">
         <section data-scroll-index="3" className="section bg-orange-50">
