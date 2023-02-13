@@ -1,4 +1,5 @@
 import React from "react";
+import { AiFillGithub, AiFillLinkedin, AiFillFilePdf } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -10,14 +11,26 @@ const Footer = () => {
               <a
                 className="text-white text-opacity-90 hover:text-orange-600 mr-5 text-[16px]"
                 href="https://www.linkedin.com/in/christinegrayb/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <i className="fab fa-linkedin-in"></i>
+                <AiFillLinkedin size="2rem" />
               </a>
               <a
                 className="text-white text-opacity-90 hover:text-orange-600 mr-5 text-[16px]"
                 href="https://cdn.hihello.me/o/172322f9-7ec2-40b8-a3c7-a1b2b1dbd4d4.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <i className="fa-thin fa-file-pdf"></i>
+                <AiFillFilePdf size="2rem" />
+              </a>
+              <a
+                className="text-white text-opacity-90 hover:text-orange-600 mr-5 text-[16px]"
+                href="https://github.com/hummingbirdcreative"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillGithub size="2rem" />
               </a>
             </div>
           </div>
