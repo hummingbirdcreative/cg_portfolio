@@ -7,24 +7,22 @@ const About = () => {
         <div className="grid lg:grid-cols-12 grid-cols-1 items-center">
           <div className="lg:col-span-6 text-center mb-[50px] lg:mb-0">
             <img
-              className="mx-auto border-black border-8 border-solid"
-              src="assets/img/zigzags.jpg"
-              title="zigzags"
-              alt="zigzags"
+              className="mx-auto"
+              src="assets/img/filleddiamonds.png"
+              title="filled diamonds"
+              alt="filled diamonds"
             />
           </div>
           <div className="lg:col-span-6 lg:pl-12">
             <h3 className="font-[600] text-[26px] md:text-[40px] leading-[1.2] text-black mb-[25px]">
-              I'm a Freelancer Front-end Developer with an interest in
-              accessibility.
+              I'm a Full-Stack Web Developer.
             </h3>
             <p className="text-[16px] md:text-[18px]">
-              I am a full-stack web developer who enjoys creating precise code
-              to solve problems creatively. With a background in design and
-              customer service, I am passionate about visual aesthetics and good
-              design that works uniquely for each client’s needs. I am a problem
-              solver who has cultivated the ability to adapt quickly and find
-              concise solutions.
+              I enjoy creating precise code to solve problems creatively. With a
+              background in design and customer service, I am passionate about
+              visual aesthetics and good design that works uniquely for each
+              client’s needs. I am a problem solver who has cultivated the
+              ability to adapt quickly and find concise solutions.
             </p>
             {/* <div className="grid grid-cols-12 pt-5">
               <div className="col-span-6 sm:col-span-4">

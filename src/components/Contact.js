@@ -98,9 +98,9 @@ const Contact = () => {
                 <div className="pb-10">
                   <img
                     className="w-full"
-                    src="assets/img/pinkdesk.jpg"
-                    title=""
-                    alt=""
+                    src="https://i.imgur.com/FJldjMa.png"
+                    title="available for work"
+                    alt="available for work"
                   />
                 </div>
                 <ul className="contact-infos">

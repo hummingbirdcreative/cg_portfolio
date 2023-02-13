@@ -70,10 +70,10 @@ const Skills = () => {
             </div>
             <div className="lg:col-span-6 text-center pt-[40px] md:pt-0">
               <img
-                className="mx-[auto] border-black border-8 border-solid"
-                src="assets/img/coding.jpg"
-                title=""
-                alt=""
+                className="mx-[auto] pb-6"
+                src="assets/img/opendiamonds.png"
+                title="open diamonds"
+                alt="open diamonds"
               />
             </div>
           </div>
