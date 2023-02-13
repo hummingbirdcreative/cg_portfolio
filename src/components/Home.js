@@ -8,6 +8,7 @@ import Project from "./Project";
 import Testimonial from "./Testimonial";
 import Contact from "./Contact";
 import NavBar from "./NavBar";
+import TypeIt from "typeit-react";
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
                     👋, My name is Christine Graybosch
                   </h6>
                   <h1 className="text-black font-[600] text-[40px] md:text-[70px] leading-[1] mb-[25px] md:mb-[35px]">
-                    I'm a <span id="type-it"></span>
+                    I'm a <TypeIt>Developer</TypeIt>
                   </h1>
                   <p className="text-[16px] md:text-[20px] mb-[8px] md:mb-[16px]">
                     Based in Los Angeles, California.
