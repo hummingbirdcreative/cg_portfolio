@@ -36,8 +36,8 @@ const Post = () => {
         }}
       >
         <div className="container">
-          <div class="grid section-heading">
-            <div class="lg:col-span-6 text-center mx-auto">
+          <div className="grid section-heading">
+            <div className="lg:col-span-6 text-center mx-auto">
               <h3>
                 <span>Recent Blog Post</span>
               </h3>
