@@ -9,9 +9,9 @@
   /* ---------------------------------------------- /*
    * Pre load
   /* ---------------------------------------------- */
-  WEA.PreLoad = function () {
-    document.getElementById("loading").style.display = "none";
-  };
+  //   WEA.PreLoad = function () {
+  //     document.getElementById("loading").style.display = "none";
+  //   };
 
   /*--------------------
     * Menu
