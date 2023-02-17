@@ -244,9 +244,9 @@
   }
 
   // Window on Load
-  $(window).on("load", function () {
-    WEA.masonry(), WEA.PreLoad();
-  });
+  //   $(window).on("load", function () {
+  //     WEA.masonry(), WEA.PreLoad();
+  //   });
   // Document on Ready
   $(document).ready(function () {
     WEA.HeaderFixd(),
