@@ -60,9 +60,9 @@ const Skills = () => {
                   <div className="col-span-6">
                     <div className="feature-box-02 bg-6">
                       <div className="icon">
-                        <i className="fab fa-aws"></i>
+                        <i className="fab fa-python"></i>
                       </div>
-                      <h6>AWS</h6>
+                      <h6>Python</h6>
                     </div>
                   </div>
                 </div>
