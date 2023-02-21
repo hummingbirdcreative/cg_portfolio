@@ -22,7 +22,7 @@ const Project = () => {
                     alt="Vita"
                   />
                   <a
-                    href="https://vita-app-production.up.railway.app/"
+                    href="https://vita-life-story.herokuapp.com/"
                     className="gallery-link-icon"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -45,7 +45,7 @@ const Project = () => {
                   <div className="btn-bar">
                     <a
                       className="px-btn px-btn-theme"
-                      href="https://vita-app-production.up.railway.app/"
+                      href="https://vita-life-story.herokuapp.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
