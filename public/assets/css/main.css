@@ -1240,7 +1240,7 @@ html {
     left: 0px;
     top: 100%;
     right: 0px;
-    display: none;
+    display: block;
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
