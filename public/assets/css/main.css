@@ -1283,6 +1283,15 @@ html {
 
 .owl-dots {
   text-align: center;
+  margin-top: 30px;
+}
+.owl-carousel .owl-stage {
+  display: flex;
+}
+
+.owl-carousel .feature-box-03 {
+  height: 100%;
+  margin: 0 10px 0;
 }
 
 .owl-dots .owl-dot {
