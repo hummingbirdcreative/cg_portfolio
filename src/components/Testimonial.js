@@ -8,7 +8,7 @@ const Testimonial = () => {
           <div className="grid section-heading">
             <div className="lg:col-span-6 text-center mx-auto">
               <h3>
-                <span>Testimonial</span>
+                <span>Testimonials</span>
               </h3>
             </div>
           </div>
