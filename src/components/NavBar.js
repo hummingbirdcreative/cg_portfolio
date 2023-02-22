@@ -1,4 +1,5 @@
 import React from "react";
+import Hamburger from "./Hamburger";
 
 const NavBar = () => {
   return (
@@ -14,12 +15,13 @@ const NavBar = () => {
             />
           </a>
         </div>
-
-        <button className="lg:hidden mobile_toggle w-[40px] flex flex-col">
+        <Hamburger />
+        {/* <button className="lg:hidden mobile_toggle w-[40px] flex flex-col">
           <span className="w-[25px] h-[2px] bg-slate-900 inline-block"></span>
           <span className="w-[25px] h-[2px] bg-slate-900 inline-block my-[5px]"></span>
           <span className="w-[25px] h-[2px] bg-slate-900 inline-block"></span>
-        </button>
+        </button> */}
+
         <div className="navbar-collapse flex">
           <ul className="navbar lg:mx-auto flex flex-col lg:flex-row p-4 lg:p-0">
             <li>
@@ -49,6 +51,7 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
+
         <div className="ms-auto hidden lg:flex">
           <a
             className="px-btn px-btn-theme"
