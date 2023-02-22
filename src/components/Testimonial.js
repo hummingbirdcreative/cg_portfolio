@@ -12,17 +12,7 @@ const Testimonial = () => {
               </h3>
             </div>
           </div>
-          <div
-            className="owl-carousel lightbox-gallery"
-            data-items="2"
-            data-nav-dots="true"
-            data-lg-items="2"
-            data-md-items="1"
-            data-sm-items="1"
-            data-xs-items="1"
-            data-space="30"
-            data-autoplay="true"
-          >
+          <div className="owl-carousel lightbox-gallery testimonial_slider">
             <div className="feature-box-03">
               <div className="feature-img">
                 <a
