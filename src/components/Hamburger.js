@@ -6,14 +6,14 @@ export default function Hamburger() {
   return (
     <div className="flex items-center justify-between border-b border-gray-400 py-8">
       <nav>
-        <section className="MOBILE-MENU flex lg:hidden">
+        <section className="MOBILE-MENU lg:hidden mobile_toggle menu_open w-[40px] flex flex-col">
           <div
             className="HAMBURGER-ICON space-y-2"
             onClick={() => setIsNavOpen((prev) => !prev)}
           >
-            <span className="block h-0.5 w-8 animate-pulse bg-slate-900"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-slate-900"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-slate-900"></span>
+            <span className="inline-block h-0.5 w-8 animate-pulse bg-slate-900"></span>
+            <span className="inline-block h-0.5 w-8 animate-pulse bg-slate-900"></span>
+            <span className="inline-block h-0.5 w-8 animate-pulse bg-slate-900"></span>
           </div>
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>

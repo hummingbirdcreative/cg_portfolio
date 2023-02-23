@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Hamburger from "./Hamburger";
 
 const NavBar = () => {
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
   return (
     <header className="main-header fixed left-0 right-0 z-[111]">
       <div className="container flex items-center justify-between one-page-nav relative py-5 lg:py-3">
@@ -16,13 +18,16 @@ const NavBar = () => {
           </a>
         </div>
         {/* <Hamburger /> */}
-        <button className="lg:hidden mobile_toggle w-[40px] flex flex-col">
+        <button className="lg:hidden mobile_toggle menu_open w-[40px] flex flex-col">
           <span className="w-[25px] h-[2px] bg-slate-900 inline-block"></span>
           <span className="w-[25px] h-[2px] bg-slate-900 inline-block my-[5px]"></span>
           <span className="w-[25px] h-[2px] bg-slate-900 inline-block"></span>
         </button>
 
-        <div className="navbar-collapse flex">
+        <div
+          className="navbar-collapse flex"
+          onClick={() => setIsNavOpen((prev) => !prev)}
+        >
           <ul className="navbar lg:mx-auto flex flex-col lg:flex-row p-4 lg:p-0">
             <li>
               <a className="active" data-scroll-nav="0" href="#home">
