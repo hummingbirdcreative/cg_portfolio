@@ -15,14 +15,12 @@ const About = () => {
           </div>
           <div className="lg:col-span-6 lg:pl-12">
             <h3 className="font-[600] text-[26px] md:text-[40px] leading-[1.2] text-black mb-[25px]">
-              I'm a Full-Stack Web Developer.
+              I'm a Full-Stack Web Developer
             </h3>
             <p className="text-[16px] md:text-[18px]">
-              I enjoy creating precise code to solve problems creatively. With a
-              background in design and customer service, I am passionate about
-              visual aesthetics and good design that works uniquely for each
-              client’s needs. I am a problem solver who has cultivated the
-              ability to adapt quickly and find concise solutions.
+              ...with a background in design and customer service. I am
+              passionate about visual aesthetics and making the web more
+              accessible to humans of all backgrounds and abilities.
             </p>
             {/* <div className="grid grid-cols-12 pt-5">
               <div className="col-span-6 sm:col-span-4">

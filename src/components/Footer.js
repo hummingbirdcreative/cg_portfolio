@@ -18,7 +18,7 @@ const Footer = () => {
               </a>
               <a
                 className="text-white text-opacity-90 hover:text-orange-600 mr-5 text-[16px]"
-                href="https://cdn.hihello.me/o/172322f9-7ec2-40b8-a3c7-a1b2b1dbd4d4.pdf"
+                href="https://cdn.hihello.me/o/678f93e3-7415-4296-9f59-a2aae2a4f5ee.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
